@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from "reactstrap";
+import { Navbar, NavbarBrand, Collapse, Nav, NavItem, NavLink } from "reactstrap";
 
 // Header component holding the navbar and links to pages
 function Header() {
