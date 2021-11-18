@@ -25,7 +25,13 @@ function Portfolio() {
                     />
                 ))} */}
                 <div id="projectsCarousel" className="carousel slide" data-ride="carousel">
-             
+                    <div className="carousel-indicators">
+                        {projects.map(project => (
+                            <Indicator
+                                id={project.id}
+                            />
+                        ))}
+                    </div>
                     <div className="carousel-inner">
                         {projects.map(project => (
                             <ProjectsList
