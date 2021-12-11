@@ -8,22 +8,12 @@ import "../styles/Portfolio.css";
 function Portfolio() {
 
     return (
-        <section className="portfolio-section bg-light" id="portfolio">
+        <section className="portfolio-section" id="portfolio">
             <div className="container">
                 <div className="row align-items-center no-gutters mb-4 mb-lg-5">
                     <h1 className="mb-4 text-center">My portfolio</h1>
                 </div>
                 {/* Mapping through the projects array and creating a component for each project */}
-                {/* {projects.map(project => (
-                    <ProjectsList
-                        key={project.id}
-                        title={project.title}
-                        image={project.image}
-                        description={project.description}
-                        github={projecst.github}
-                        demo={project.demo}
-                    />
-                ))} */}
                 <div id="projectsCarousel" className="carousel slide" data-ride="carousel">
                     <div className="carousel-indicators">
                         {projects.map(project => (
