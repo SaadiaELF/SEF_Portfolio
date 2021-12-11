@@ -1,11 +1,11 @@
 import React from "react";
 import { List, ListInlineItem, Container, UncontrolledTooltip} from "reactstrap"
-import "../styles/Masthead.css";
+import "../styles/Homepage.css";
 
-// Masthead component holding link to github and LinkedIn
-function Masthead() {
+// Homepage component holding link to github and LinkedIn
+function Homepage() {
     return (
-        <header className="masthead">
+        <header className="Homepage">
             <Container className="d-flex h-100 align-items-center">
                 <div className="mx-auto text-center">
                     <h1 className="mx-auto my-0 mt-5">～Saadia El fekak～</h1>
@@ -42,4 +42,4 @@ function Masthead() {
     );
 }
 
-export default Masthead;
+export default Homepage;

@@ -1,5 +1,5 @@
-/* Masthead styling */
-.masthead {
+/* Homepage styling */
+.Homepage {
     position: relative;
     width: 100%;
     height: auto;
@@ -11,12 +11,12 @@
     background-attachment: scroll;
     background-size: cover;
 }
-.masthead h1 {
+.Homepage h1 {
     font-family:'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 4rem;
     line-height: 2.5rem; 
 }
-.masthead h3 {
+.Homepage h3 {
     font-family: 'Slabo 27px', serif, Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     line-height: 2.5rem; 
@@ -36,10 +36,10 @@
     color :black;
 }
 @media (max-width: 768px) {
-    .masthead h1 {
+    .Homepage h1 {
       font-size: 2.5rem;
     }
-    .masthead h3 {
+    .Homepage h3 {
         font-size: 1.5rem;
     }
 }

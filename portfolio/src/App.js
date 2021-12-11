@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Masthead from "./components/Masthead";
+import Homepage from "./pages/Homepage";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -18,7 +18,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Masthead />} />
+          <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about" element={<AboutMe />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
