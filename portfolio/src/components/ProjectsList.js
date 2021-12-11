@@ -5,7 +5,7 @@ import "../styles/Portfolio.css"
 function ProjectsList(props) {
     return (
         <div className={props.title === 'TreePeeps' ? "carousel-item active" : "carousel-item"}>
-            <div className="row align-items-center no-gutters">
+            <div className="row no-gutters">
                 <div className="col-xl-7 col-lg-6">
                     <img className="project-img border border-secondary img-fluid" src={props.image} alt={props.title} />
                 </div>
