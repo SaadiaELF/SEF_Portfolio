@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectsList from "../components/ProjectsList";
-import Indicator from "../components/CarouselInd";
 // importing projects info from js file
 import { projects } from "./Projects.js";
 import "../styles/Portfolio.css";
@@ -14,14 +13,7 @@ function Portfolio() {
                     <h1 className="mb-4 text-center">My portfolio</h1>
                 </div>
                 {/* Mapping through the projects array and creating a component for each project */}
-                <div id="projectsCarousel" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-indicators">
-                        {projects.map(project => (
-                            <Indicator
-                                id={project.id}
-                            />
-                        ))}
-                    </div>
+                <div id="projectsCarousel" className="carousel slide carousel-fade" data-ride="carousel">
                     <div className="carousel-inner">
                         {projects.map(project => (
                             <ProjectsList
