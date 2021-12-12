@@ -37,7 +37,7 @@ export const projects =[
         "id": 4,
         "title": "Google Books",
         "image": googleBooks,
-        "description": "React-based Google Books Search app which allows the user to search and save books to review or purchase later.This app use React components, helper/util functions, and utilize React hooks to query and display books based on user searches. This app also use Node, Express and MongoDB so that users can save books to review or purchase later.",
+        "description": "React-based Google Books Search app which allows the user to search and save books to review or purchase later. This app use React components, helper/util functions, and utilize React hooks to query and display books based on user searches. This app also use Node, Express and MongoDB so that users can save books to review or purchase later.",
         "github": "https://github.com/SaadiaELF/Google_Books_Search_SEF.git",
         "demo": "https://google-books-search-sef.herokuapp.com/"
     },
