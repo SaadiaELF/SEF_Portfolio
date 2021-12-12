@@ -1,5 +1,5 @@
 import React from "react";
-import { List, ListInlineItem, Container, UncontrolledTooltip} from "reactstrap"
+import { List, ListInlineItem, Container, UncontrolledTooltip } from "reactstrap"
 import "../styles/Homepage.css";
 
 // Homepage component holding link to github and LinkedIn

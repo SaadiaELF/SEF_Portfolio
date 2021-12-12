@@ -35,6 +35,8 @@
 .fab {
     color :black;
 }
+
+/* Adapting font size for mobile screen */
 @media (max-width: 768px) {
     .Homepage h1 {
       font-size: 2.5rem;

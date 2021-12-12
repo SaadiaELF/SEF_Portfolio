@@ -25,6 +25,7 @@ function Portfolio() {
                                 demo={project.demo}
                             />
                         ))}
+                        {/* Previous and Next carousel buttons */}
                         <button className="carousel-control-prev" type="button" data-target="#projectsCarousel" data-slide="prev">
                             <span className="carousel-control-prev-icon bg-dark bg-opacity-50" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>

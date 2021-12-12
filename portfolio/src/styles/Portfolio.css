@@ -42,17 +42,11 @@
     border-width: 0.25rem;
     width: 30%;
 }
-/* #indicator {
-    width: 30px;
-    height: 10px;
-    margin-left: 3px;
-    margin-right: 3px;
-    border-width: 1px ;
-} */
 
 #projectsCarousel .row {
 height : 450px
 }
+
 /* Adapting font size and button for mobile screen */
 @media (max-width: 768px) {
     .portfolio-section h1 {

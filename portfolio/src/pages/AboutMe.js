@@ -15,16 +15,16 @@ function AboutMe() {
                             <img className="my-img img-thumbnail rounded-circle shadow-lg" src={myPhoto} alt="Saadia" />
                             <h2>Welcome to my portfolio website  <i className="far fa-smile-beam"></i> </h2>
                             <p> Hi! I’m Saadia El Fekak.
-                            I'm a Full Stack web developer based in Birmingham.
-                            I'm experienced in HTML, JavaScript, JQuery, CSS, NodeJS, MySQL, MongoDB, ReactJS and also a voracious learner who loves acquiring new
-                            skills and tackling new challenges.
-                                
-                            for more information please refer to <a  href="https://drive.google.com/file/d/12gawAvTjf7SSzYI-0vghz3b9s-ZyFlTm/view?usp=sharing"
-                                    target="_blank" rel="noreferrer">my Resume...</a>    
+                                I'm a Full Stack web developer based in Birmingham.
+                                I'm experienced in HTML, JavaScript, JQuery, CSS, NodeJS, MySQL, MongoDB, ReactJS and also a voracious learner who loves acquiring new
+                                skills and tackling new challenges.
+
+                                for more information please refer to <a href="https://drive.google.com/file/d/12gawAvTjf7SSzYI-0vghz3b9s-ZyFlTm/view?usp=sharing"
+                                    target="_blank" rel="noreferrer">my Resume...</a>
                             </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
         </div>
 
