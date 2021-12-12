@@ -6,6 +6,7 @@ import codeQuiz from '../images/code-quiz.gif';
 import popcornpedia from '../images/Popcornpedia.JPG';
 import weatherDashboard from '../images/Weather.JPG';
 import scheduler from '../images/Scheduler.JPG';
+import googleBooks from '../images/googleBooks.gif';
 
 export const projects =[
     {
@@ -34,6 +35,14 @@ export const projects =[
     },
     {
         "id": 4,
+        "title": "Google Books",
+        "image": googleBooks,
+        "description": "React-based Google Books Search app which allows the user to search and save books to review or purchase later.This app use React components, helper/util functions, and utilize React hooks to query and display books based on user searches. This app also use Node, Express and MongoDB so that users can save books to review or purchase later.",
+        "github": "https://github.com/SaadiaELF/Google_Books_Search_SEF.git",
+        "demo": "https://google-books-search-sef.herokuapp.com/"
+    },
+    {
+        "id": 5,
         "title": "Code Quiz",
         "image": codeQuiz,
         "description": "Code quiz is a timed coding quiz application with multiple-choice questions. This application run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript.",
@@ -41,7 +50,7 @@ export const projects =[
         "demo": "https://saadiaelf.git./images/Popcornpedia.JPGhub.io/Code_Quiz_SEF/"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Popcornpedia",
         "image": popcornpedia,
         "description": "This website allows the users to search a film, view information about this film including actors and crew information and also, receive recommendations based on their search. This application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript. The project use also the Foundation and Bulma CSS Frameworks and make use of the different APIs.",
@@ -49,7 +58,7 @@ export const projects =[
         "demo": "https://saadiaelf.github.io/Popcornpedia-Project/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Weather Dashboard",
         "image": weatherDashboard,
         "description": "This weather dashboard allows to search weather parameters by city name, display current temperature, humidity, wind speed and UV index for the searched city. It displays also a 5-days forecast for the searched city and a dynamic recent search history. This application runs in the browser and features dynamically updated HTML and CSS.",
@@ -57,7 +66,7 @@ export const projects =[
         "demo": "https://saadiaelf.github.io/Weather_Dashboard_SEF/"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Work Day Scheduler",
         "image": scheduler,
         "description": "This is a simple calendar application that allows the user to save events for each hour of the day. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
