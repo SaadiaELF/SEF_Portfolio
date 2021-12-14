@@ -14,7 +14,7 @@ import Contact from "./pages/Contact";
 // Calling all components and using router to render pages
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         <Routes>
