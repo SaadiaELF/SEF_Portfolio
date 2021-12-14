@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  HashRouter,
-  Routes,
-  Route
+  BrowserRouter as Router, Route
 } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -14,18 +12,16 @@ import Contact from "./pages/Contact";
 // Calling all components and using router to render pages
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router >
       <div>
         <Header />
-        <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about" element={<AboutMe />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
-        </Routes>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   )
 
 }
