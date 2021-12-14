@@ -18,7 +18,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/SEF_Portfolio" element={<Homepage />} />
+          <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about" element={<AboutMe />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />

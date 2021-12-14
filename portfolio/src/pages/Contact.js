@@ -31,7 +31,7 @@ function Contact() {
                         <Column
                             icon="file"
                             title="Resume"
-                            text={<a href="https://drive.google.com/file/d/12gawAvTjf7SSzYI-0vghz3b9s-ZyFlTm/view?usp=sharing" target="_blank" rel="noreferrer">My resume</a>}
+                            text={<a href="https://drive.google.com/file/d/1r9wMMGY2XgtQHHKb7RdbjsptDptmgMQ9/view?usp=sharing" target="_blank" rel="noreferrer">My resume</a>}
                         />
                     </Row>
                 </Container>
