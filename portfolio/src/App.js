@@ -1,6 +1,8 @@
 import React from "react";
 import {
-  BrowserRouter as Router, Route
+  BrowserRouter,
+  Routes,
+  Route
 } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -12,16 +14,18 @@ import Contact from "./pages/Contact";
 // Calling all components and using router to render pages
 function App() {
   return (
-    <Router >
+    <BrowserRouter basename="window.location.pathname || ''" >
       <div>
         <Header />
+        <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about" element={<AboutMe />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   )
 
 }
