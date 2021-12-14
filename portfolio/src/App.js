@@ -14,11 +14,11 @@ import Contact from "./pages/Contact";
 // Calling all components and using router to render pages
 function App() {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter>
       <div>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/SEF_Portfolio" element={<Homepage />} />
           <Route exact path="/about" element={<AboutMe />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />

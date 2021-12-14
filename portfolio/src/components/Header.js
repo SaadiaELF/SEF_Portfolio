@@ -11,7 +11,7 @@ function Header() {
                 fixed="top"
                 light
             >
-                <NavbarBrand href="/">
+                <NavbarBrand href="/SEF_Portfolio">
                     Saadia El fekak
                 </NavbarBrand>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
