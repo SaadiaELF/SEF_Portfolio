@@ -25,17 +25,17 @@ function Header() {
                         navbar
                     >
                         <NavItem>
-                            <NavLink href="/about/">
+                            <NavLink href="/about">
                                 About me
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/portfolio/">
+                            <NavLink href="/portfolio">
                                 Portfolio
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact/">
+                            <NavLink href="/contact">
                                 Contact
                             </NavLink>
                         </NavItem>
