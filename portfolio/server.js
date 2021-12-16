@@ -7,5 +7,5 @@ app.get('*', (req, res) => {
    res.sendFile(path.join(__dirname, "./build/index.html"));
 });
 app.listen(port, () => {
-    console.log(`Server is server now on port ${PORT}!`);
+    console.log(`Server is server now on port ${port}!`);
 });
