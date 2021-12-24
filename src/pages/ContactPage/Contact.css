@@ -1,0 +1,18 @@
+/* Contact me section styling */
+.contact-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-section h1 {
+    font-family: 'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+/* Adapting font size for mobile screen */
+@media (max-width: 768px) {
+    .contact-section h1 {
+        font-size: 2rem;
+    }
+}
