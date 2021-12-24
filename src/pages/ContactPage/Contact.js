@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
-import "../Contact.css";
+import "./Contact.css";
 import ContactCard from "../../Components/ContactCard/Card.js"
 
 
