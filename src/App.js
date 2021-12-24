@@ -6,12 +6,12 @@ import {
 } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Homepage from "./pages/Homepage";
-import AboutMe from "./pages/AboutMe";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Homepage from "./Pages/Homepage";
+import AboutMe from "./Pages/AboutMe";
+import Portfolio from "./Pages/Portfolio";
+import Contact from "./Pages/Contact";
 
-// Calling all components and using router to render pages
+// Calling all components and using router to render Pages
 function App() {
   return (
     <BrowserRouter basename="/">
