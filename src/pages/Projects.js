@@ -1,12 +1,12 @@
 // This file holds projects information array
-import treePeeps from '../images/treepeeps.jpg';
-import codeCrowd from '../images/code-crowd.png';
-import techBlog from '../images/tech-blog.gif';
-import codeQuiz from '../images/code-quiz.gif';
-import popcornpedia from '../images/Popcornpedia.JPG';
-import weatherDashboard from '../images/Weather.JPG';
-import scheduler from '../images/Scheduler.JPG';
-import googleBooks from '../images/googleBooks.gif';
+import treePeeps from '../Assets/Images/treepeeps.jpg';
+import codeCrowd from '../Assets/Images/code-crowd.png';
+import techBlog from '../Assets/Images/tech-blog.gif';
+import codeQuiz from '../Assets/Images/code-quiz.gif';
+import popcornpedia from '../Assets/Images/Popcornpedia.JPG';
+import weatherDashboard from '../Assets/Images/Weather.JPG';
+import scheduler from '../Assets/Images/Scheduler.JPG';
+import googleBooks from '../Assets/Images/googleBooks.gif';
 
 export const projects =[
     {
@@ -47,7 +47,7 @@ export const projects =[
         "image": codeQuiz,
         "description": "Code quiz is a timed coding quiz application with multiple-choice questions. This application run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript.",
         "github": "https://github.com/SaadiaELF/Code_Quiz_SEF.git",
-        "demo": "https://saadiaelf.git./images/Popcornpedia.JPGhub.io/Code_Quiz_SEF/"
+        "demo": "https://saadiaelf.git./Assets/Images/Popcornpedia.JPGhub.io/Code_Quiz_SEF/"
     },
     {
         "id": 6,

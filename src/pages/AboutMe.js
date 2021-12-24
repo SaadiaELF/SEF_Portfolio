@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from '../images/myphoto.jpg';
+import myPhoto from '../Assets/Images/myphoto.jpg';
 import { Row, Col, Container } from "reactstrap";
 import "../styles/AboutMe.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectsList from "../components/ProjectsList";
+import ProjectsList from "../Components/ProjectsList";
 // importing projects info from js file
 import { projects } from "./Projects.js";
 import "../styles/Portfolio.css";

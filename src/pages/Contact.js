@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import "../styles/Contact.css";
-import Column from "../components/Col.js"
+import Column from "../Components/Col.js"
 
 
 function Contact() {
