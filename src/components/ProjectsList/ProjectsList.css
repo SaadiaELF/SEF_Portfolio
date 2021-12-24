@@ -1,0 +1,43 @@
+.project-img {
+    width: 640px;
+    height: 360px;
+    margin-bottom: 2rem;
+}
+
+.links-btns ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-btns li {
+    display: inline-block;
+}
+
+.btn {
+    width: 90px;
+}
+
+.project-text {
+    font-family: 'Fira Sans Condensed', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    font-size: 90%;
+}
+
+.project-text p {
+    font-size: 1rem;
+}
+
+.project-text hr {
+    border-color: #a16469;
+    border-width: 0.25rem;
+    width: 30%;
+}
+
+/* Adapting font size and button for mobile screen */
+@media (max-width: 768px) {
+    .btn {
+        font-size: 0.7rem;
+        width: 70px;
+    }
+}

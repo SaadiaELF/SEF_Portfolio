@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Portfolio.css"
+import "./ProjectsList.css"
 
 // ProjectList component holding projects information to use in Portfolio page
 function ProjectsList(props) {
