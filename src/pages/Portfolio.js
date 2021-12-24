@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsList from "../Components/ProjectsList";
+import { Container, Row } from "reactstrap";
 // importing projects info from js file
 import { projects } from "./Projects.js";
 import "../styles/Portfolio.css";
@@ -8,13 +9,13 @@ function Portfolio() {
 
     return (
         <section className="portfolio-section" id="portfolio">
-            <div className="container">
-                <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <h1 className="mb-4 text-center">My portfolio</h1>
-                </div>
-                {/* Mapping through the projects array and creating a component for each project */}
+            <Container>
+                <Row className="align-items-center no-gutters mb-4 mt-4 mb-lg-5">
+                    <h1 className="text-center">My portfolio</h1>
+                </Row>
                 <div id="projectsCarousel" className="carousel slide carousel-fade" data-ride="carousel">
                     <div className="carousel-inner">
+                        {/* Mapping through the projects array and creating a component for each project */}
                         {projects.map(project => (
                             <ProjectsList
                                 key={project.id}
@@ -36,7 +37,7 @@ function Portfolio() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </Container>
         </section>
     );
 }
