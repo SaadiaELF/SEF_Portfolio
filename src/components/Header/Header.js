@@ -1,12 +1,14 @@
 import React from "react";
 import { Navbar, NavbarBrand, Collapse, Nav, NavItem, NavLink } from "reactstrap";
+import "./Header.css";
 
 // Header component holding the navbar and links to pages
 function Header() {
     return (
         <div>
             <Navbar
-                color="light"
+                id="Navbar"
+                // color="rgb(212, 212, 212)"
                 expand="lg"
                 fixed="top"
                 light
