@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Card, CardBody } from "reactstrap";
-import "./Card.css";
+import "./ContactCard.css";
 
 // Card component for contact page
 function ContactCard(props) {

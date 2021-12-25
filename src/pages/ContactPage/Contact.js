@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import "./Contact.css";
-import ContactCard from "../../Components/ContactCard/Card.js"
+import ContactCard from "../../Components/ContactCard/ContactCard"
 
 
 function Contact() {
