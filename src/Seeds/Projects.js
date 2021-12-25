@@ -8,7 +8,7 @@ import weatherDashboard from '../Assets/Images/Weather.JPG';
 import scheduler from '../Assets/Images/Scheduler.JPG';
 import googleBooks from '../Assets/Images/googleBooks.gif';
 
-export const projects =[
+export const projects = [
     {
         "id": 1,
         "title": "TreePeeps",
