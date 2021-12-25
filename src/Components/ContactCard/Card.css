@@ -1,0 +1,13 @@
+#contactCard {
+    border: 0.1rem solid #73968f;
+    margin-bottom: 15px;
+    border-bottom: 0.25rem solid #73968f;
+}
+
+#contactCard h4 {
+    font-size: 1rem;
+    font-family: 'Fira Sans Condensed', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
