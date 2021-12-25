@@ -8,7 +8,6 @@ function Header() {
         <div>
             <Navbar
                 id="Navbar"
-                // color="rgb(212, 212, 212)"
                 expand="lg"
                 fixed="top"
                 light
