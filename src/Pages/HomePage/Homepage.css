@@ -1,12 +1,12 @@
 /* Homepage styling */
 .Homepage {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: auto;
-    min-height: 35rem;
-    padding: 12rem 0;
+    min-height: 100vh;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
     background-image: url("../../Assets/Images/bg.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
