@@ -13,12 +13,12 @@ function Homepage() {
                     <List type="inline">
                         <ListInlineItem>
                             <a href="https://www.linkedin.com/in/saadia-el-fekak-5b138780 " target="_blank" rel="noreferrer" id="linkedin"><i
-                                className="fab fa-linkedin fa-5x">
+                                className="fab fa-linkedin fa-4x">
                             </i>
                             </a>
                         </ListInlineItem>
                         <ListInlineItem>
-                            <a href="https://github.com/SaadiaELF" target="_blank" rel="noreferrer" id="github"><i className="fab fa-github fa-5x">
+                            <a href="https://github.com/SaadiaELF" target="_blank" rel="noreferrer" id="github"><i className="fab fa-github fa-4x">
                             </i>
                             </a>
                         </ListInlineItem>
