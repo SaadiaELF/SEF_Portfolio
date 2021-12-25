@@ -54,9 +54,11 @@
     border-width: 0.25rem;
     width: 30%;
 }
-.btn-control{
+
+.btn-control {
     position: fixed !important;
 }
+
 #projectsCarousel {
     height: 500px;
 }
