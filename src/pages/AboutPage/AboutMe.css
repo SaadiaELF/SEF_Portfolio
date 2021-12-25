@@ -1,7 +1,12 @@
 /* about me section styling */
 .about-section {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(236, 238, 223);
+    background-image: url("../../Assets/Images/bg-about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .about-section h1 {
@@ -34,10 +39,6 @@
 
 /* Adapt padding and font size for mobile screen */
 @media (max-width: 768px) {
-    .about-section {
-        padding-top: 15rem;
-        padding-bottom: 15rem;
-    }
 
     .about-section h1 {
         font-size: 2rem;

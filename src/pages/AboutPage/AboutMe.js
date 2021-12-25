@@ -8,11 +8,11 @@ function AboutMe() {
     return (
         <div>
             <section className="about-section text-center" id="about">
-                <Container>
+                <Container className="d-flex justify-content-right">
                     <Row>
-                        <Col lg="8" className="mx-auto">
+                        <Col lg="7" className="mx-auto">
                             <h1 className="mb-4">About me </h1>
-                            <img className="my-img img-thumbnail rounded-circle shadow-lg" src={myPhoto} alt="Saadia" />
+                            <img className="my-img img-thumbnail rounded shadow-lg" src={myPhoto} alt="Saadia" />
                             <h2>Welcome to my portfolio website  <i className="far fa-smile-beam"></i> </h2>
                             <p> Hi! I’m Saadia El Fekak.
                                 I'm a Full Stack web developer based in Birmingham.
