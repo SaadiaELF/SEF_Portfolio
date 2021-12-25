@@ -1,0 +1,27 @@
+/* Contact me section styling */
+.contact-section {
+    padding-top: 4.5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(236, 238, 223);
+    background-image: url("../../Assets/Images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.contact-section h1 {
+    font-family: 'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+/* Adapting font size for mobile screen */
+@media (max-width: 768px) {
+    .contact-section h1 {
+        font-size: 2rem;
+    }
+
+    .contact-section {
+        padding-top: 5rem;
+    }
+}
