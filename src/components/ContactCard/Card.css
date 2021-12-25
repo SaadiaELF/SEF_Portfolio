@@ -1,7 +1,7 @@
 #contactCard {
-    border: 1;
+    border: 0.1rem solid #73968f;
     margin-bottom: 15px;
-    border-bottom: 0.25rem solid #c94c57;
+    border-bottom: 0.25rem solid #73968f;
 }
 
 #contactCard h4 {
@@ -11,7 +11,3 @@
     letter-spacing: 0.15rem;
 }
 
-#contactCard hr {
-    border-color: #a16469;
-    border-width: 0.25rem;
-}
