@@ -13,12 +13,14 @@
     font-family: 'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     line-height: 1.5rem;
+    color: #000;
 }
 
 .about-section h2 {
     font-family: 'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     line-height: 1.5rem;
+    color: #000;
 }
 
 .about-section p {

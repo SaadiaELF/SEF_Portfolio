@@ -2,7 +2,7 @@
 .portfolio-section {
     padding-top: 3.5rem;
     padding-bottom: 0rem;
-    background-color: rgba(243, 242, 242, 0.849);
+    background-color: rgba(205, 212, 212, 0.849);
     min-height: 100vh;
 }
 
@@ -10,6 +10,7 @@
     font-family: 'Lobster', cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     line-height: 1.5rem;
+    color: #000;
 }
 
 .portfolio-section .featured-text {
@@ -18,14 +19,14 @@
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
-
+/* 
 .project-img {
     width: 640px;
     height: 360px;
     margin-bottom: 2rem;
-}
+} */
 
-.links-btns ul {
+/* .links-btns ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -53,7 +54,7 @@
     border-color: #a16469;
     border-width: 0.25rem;
     width: 30%;
-}
+} */
 
 .btn-control {
     position: fixed !important;
@@ -73,9 +74,9 @@
     .portfolio-section h1 {
         font-size: 2rem;
     }
-
+/* 
     .btn {
         font-size: 0.7rem;
         width: 80px;
-    }
+    } */
 }
