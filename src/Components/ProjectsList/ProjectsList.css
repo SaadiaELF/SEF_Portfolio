@@ -36,6 +36,11 @@
 
 /* Adapting font size and button for mobile screen */
 @media (max-width: 768px) {
+    .project-img {
+        width: auto;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
     .btn {
         font-size: 0.7rem;
         width: 70px;

@@ -16,10 +16,10 @@ function ProjectsList(props) {
                         </p>
                     </div>
                     <ul className="links-btns d-flex justify-content-center">
-                        <li><a className="btn btn-danger btn-sm me-2" rel="noreferrer" href={props.demo} target="_blank"
+                        <li><a className="btn btn-success btn-sm me-2" rel="noreferrer" href={props.demo} target="_blank"
                             role="button">Demo</a>
                         </li>
-                        <li><a className="btn btn-secondary btn-sm" href={props.github}
+                        <li><a className="btn btn-info btn-sm" href={props.github}
                             target="_blank" rel="noreferrer" role="button">Repository</a>
                         </li>
                     </ul>
