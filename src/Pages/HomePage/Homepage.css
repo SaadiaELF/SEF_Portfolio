@@ -3,7 +3,6 @@
     position: absolute;
     width: 100%;
     height: auto;
-    min-height: 100vh;
     padding-top: 15rem;
     padding-bottom: 5rem;
     background-image: url("../../Assets/Images/bg.jpg");
