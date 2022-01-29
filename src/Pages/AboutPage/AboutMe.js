@@ -19,8 +19,8 @@ function AboutMe() {
                                 I'm experienced in HTML, JavaScript, JQuery, CSS, NodeJS, MySQL, MongoDB, ReactJS and also a voracious learner who loves acquiring new
                                 skills and tackling new challenges.
 
-                                for more information please refer to <a href="https://drive.google.com/file/d/1r9wMMGY2XgtQHHKb7RdbjsptDptmgMQ9/view?usp=sharing"
-                                    target="_blank" rel="noreferrer">my résumé...</a>
+                                for more information please refer to <a href="https://drive.google.com/file/d/1isgaKR5TbtAyPV_NDXL9y5BmpECiikiF/view?usp=sharing"
+                                    target="_blank" rel="noreferrer">my resume...</a>
                             </p>
                         </Col>
                     </Row>

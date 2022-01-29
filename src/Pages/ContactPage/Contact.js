@@ -31,7 +31,7 @@ function Contact() {
                         <ContactCard
                             icon="file"
                             title="Resume"
-                            text={<a href="https://drive.google.com/file/d/1r9wMMGY2XgtQHHKb7RdbjsptDptmgMQ9/view?usp=sharing" target="_blank" rel="noreferrer">My resume</a>}
+                            text={<a href="https://drive.google.com/file/d/1isgaKR5TbtAyPV_NDXL9y5BmpECiikiF/view?usp=sharing" target="_blank" rel="noreferrer">My resume</a>}
                         />
                         <ContactCard
                             icon="calendar-alt"
